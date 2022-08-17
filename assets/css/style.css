@@ -136,17 +136,17 @@ h2.heading {
   max-width: 1000px;
 }
 .choose-us-card {
-    position: relative;
-    height: 280px;
+  position: relative;
+  height: 280px;
 }
 .choose-us-card::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 1px;
-    background-color: white;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 1px;
+  background-color: white;
 }
 .choose-us-card img {
   width: 75px;
@@ -184,4 +184,104 @@ h2.heading {
 }
 .theme-simple-slider .swiper-wrapper {
   padding-bottom: 100px;
+}
+.info-blocks {
+  display: flex;
+  align-items: center;
+}
+.info-blocks img {
+  max-width: 450px;
+  width: 100%;
+  max-height: 100%;
+}
+.info-blocks .info {
+  background-color: rgba(49, 39, 131, 0.95);
+  padding: 60px 50px;
+  color: white;
+  margin-left: -30px;
+  z-index: 10;
+  max-width: 600px;
+  width: 100%;
+  min-height: 370px;
+}
+.info-blocks .info h1 {
+  font-weight: 800;
+  font-size: 29px;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 10px;
+}
+.info-blocks .info h1::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 200px;
+  height: 2px;
+  background-color: white;
+}
+.info-blocks .info p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 15px;
+}
+.info-blocks.flex-row-reverse .info {
+  margin-left: 0;
+  margin-right: -30px;
+}
+.bg-grey {
+  background-color: #efefef;
+}
+.contact-info {
+  max-width: 560px;
+  width: 100%;
+}
+.contact-info-img {
+  width: 350px;
+}
+.contact-text {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.3;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+footer {
+  background-color: var(--theme-purple);
+  padding-top: 100px;
+  color: white;
+}
+footer .logo-div {
+  background: #ffffff;
+  border-radius: 12px;
+  width: 200px;
+  text-align: center;
+  padding: 10px 20px;
+}
+footer h1 {
+  font-weight: 400;
+  font-size: 25px;
+  margin: 15px 0 45px 0;
+}
+.link-text {
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-size: 16px;
+  margin: 0 0 5px;
+}
+.footer-bottom {
+  padding: 30px 0;
+  margin-top: 20px;
+  border-top: 1px solid #ffffff;
+  max-width: 1100px;
+  width: 100%;
+  margin-inline: auto;
+}
+.footer-bottom p {
+  text-align: center;
+  margin: 0;
+  font-size: 13px;
+  font-weight: 300;
 }

@@ -142,7 +142,7 @@ h2.heading {
   content: "";
   position: absolute;
   top: 0;
-  right: 0;
+  right: -15px;
   height: 100%;
   width: 1px;
   background-color: white;
@@ -166,13 +166,13 @@ h2.heading {
   bottom: 0;
 }
 .swiper-button-next {
-  transform: translateX(-47%);
+  transform: translateX(-45%);
   right: inherit !important;
-  left: 47% !important;
+  left: 45% !important;
 }
 .swiper-button-prev {
-  transform: translateX(-47%);
-  right: 47% !important;
+  transform: translateX(-45%);
+  right: 45% !important;
   left: inherit !important;
 }
 .swiper-button-next:after,

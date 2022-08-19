@@ -148,7 +148,7 @@ h2.heading {
   content: "";
   position: absolute;
   top: 0;
-  right: 0;
+  right: -15px;
   height: 100%;
   width: 1px;
   background-color: white;

@@ -102,10 +102,13 @@
         height: 200px;
     }
     .info-blocks .info h1 {
-        font-size: 20px;
+        font-size: 18px;
+    }
+    .info-blocks .info p {
+        font-size: 13px;
     }
     .info-blocks .info {
-        min-height: 300px;
+        min-height: 280px;
         padding: 30px 20px;
     }
     .choose-us-card::before {
@@ -125,5 +128,12 @@
     }
     .theme-banner h2 {
         font-size: 16px;
+    }
+    .contact-text {
+        font-size: 20px;
+    }
+    .contact-info-img {
+        margin-top: 40px;
+        width: 200px;
     }
 }

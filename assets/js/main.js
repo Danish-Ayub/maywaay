@@ -18,4 +18,13 @@ $(document).ready(function () {
             }
         }
     });
+    
+    $('#nav_toggle').click(function(){
+        $('.sidebar-menu').addClass('active');
+        $('.sidebar-backdrop').addClass('active');
+    });
+    $('.sidebar-close, .sidebar-links, .call-us').click(function(){
+        $('.sidebar-menu').removeClass('active');
+        $('.sidebar-backdrop').removeClass('active');
+    });
 });

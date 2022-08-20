@@ -1,10 +1,16 @@
+@font-face {
+  font-family: dinNext;
+  src: url(../fonts/DINNextLTW23Bold.ttf);
+}
+
 :root {
   --theme-purple: #312783;
   --text-grey: #636363;
 }
 body {
   background-color: #fff;
-  font-family: 'Noto Sans Arabic', sans-serif;
+  /* font-family: dinNext, 'Noto Sans Arabic', sans-serif; */
+  font-family: dinNext;
   font-size: 14px;
   color: var(--text-grey);
   direction: rtl;
@@ -62,19 +68,25 @@ p {
   transition: 0.2s all;
   border: 0;
 }
-.theme-nav .btn_:hover {
-  color: white;
-  transform: scale(1.1);
-}
 .theme-banner {
-  background-image: url(../images/banner-img-ar.png);
+  /* background-image: url(../images/banner-img.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
   height: 600px;
   position: relative;
 }
-.theme-banner::before {
+.theme-banner video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+  object-fit: cover;
+}
+/* .theme-banner::before {
   content: "";
   position: absolute;
   top: 0;
@@ -82,7 +94,7 @@ p {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.65);
-}
+} */
 .theme-banner h1 {
   text-align: center;
   font-weight: 700;
